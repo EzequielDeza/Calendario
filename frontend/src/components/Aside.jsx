@@ -4,9 +4,9 @@ function Aside() {
 
     return (
         <>
-        <div className="bg-gray-200 p-4">
-          Componente Aside
-        </div>
+        <aside className="bg-gray-200 p-4 w-1/5">
+            Componente Aside
+        </aside>
         </>
     )
 }

@@ -4,11 +4,12 @@ import Calendario from './components/Calendario.jsx'
 import Aside from './components/Aside.jsx';
 
 function App() {
-
   return (
     <>
-      <Aside />
-      <Calendario />
+      <div className="flex h-screen">
+        <Aside />
+        <Calendario />
+      </div>
     </>
   )
 }
